@@ -26,10 +26,9 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/chenshaojian/learngit.git 远程库的名字就是origin，这是Git默认的叫法
 git remote add origin git@github.com:chenshaojian/gitskills.git
-git push -u origin master我们第一次推送master分支时，加上了-u参数，Git不但
-会把本地的master分支内容推送的远程新的master分支，还会把
-本地的master分支和远程的master分支关联起来，在以后的推送或者
-拉取时就可以简化命令。
+git push -u origin master我们第一次推送master分支时，加上了-u参数关联起来
++++++++++++++++++++提示出错信息：fatal: remote origin already exists.++++++++++++++++++=
+git remote rm origin 再git remote add origin https:/
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++下载到本地库+++++++++++++
 git clone https://github.com/chenshaojian/gitskills.git
 git clone git@github.com:chenshaojian/gitskills.git
