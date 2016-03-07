@@ -54,7 +54,7 @@ git remote -v 显示了可以抓取和推送的origin的地址
 git clone git@github.com:chenshaojian/learngit.git抓取分支 发现只有master
 git checkout -b dev origin/dev创建远程origin的dev分支到本地
 ++++++++++++++++++++++github上代码未被修改时+++++++++++++++++++++++++++++++++++++
-git push origin master 推送分支到github但是github上的代码被其他人改了就会失败需要它下载合并上传
+git push origin master/dev 推送分支到github但是github上的代码被其他人改了就会失败需要它下载合并上传
 ++++++++++++++++++++++github上代码被修改后+++++++++++++++++++++++++++++++++++++
 git pull最新的提交从origin/dev抓下来,若失败
 git branch --set-upstream dev origin/dev建立本地分支和远程分支的关联
